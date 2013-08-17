@@ -1,0 +1,24 @@
+{
+  "name": "pocket-spreadsheet-backfill",
+  "version": "0.0.1",
+  "description": "A little script to backfill pocket archived items into a google spreadsheet",
+  "main": "backfill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polotek/pocket-spreadsheet-backfill"
+  },
+  "author": "Marco Rogers (polotek)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/polotek/pocket-spreadsheet-backfill/issues"
+  }
+  , "dependencies": {
+    "coffee-script": "*"
+    , "express": "*"
+    , "node-pocket": "0.9.x"
+    , "google-spreadsheet": "0.2.x"
+  }
+}
