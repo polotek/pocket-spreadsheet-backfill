@@ -23,6 +23,7 @@ setAuth(gConfig.username, gConfig.password)
         , detailType: 'complete'
         , count: 10
       });
+
     return Q.all(sInfo, pResults);
   })
   .then(function(sheetInfo, results) {
@@ -52,8 +53,7 @@ setAuth(gConfig.username, gConfig.password)
     });
 
     return Q.all(addResults);
-  })
-  .fail(function(err) {
+  }, function(err) {
     throw err;
   })
   .then(function() {
