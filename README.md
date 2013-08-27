@@ -2,6 +2,14 @@
 
 This script retrieves archived items from a [Pocket](http://getpocket.com/) account and adds them as rows to a google spreadsheet.
 
+The repository is organized as a series of example implementations. I'm hoping it's a good illustration of how to get some practical stuff done in node. Each branch takes a different approaches to solving the problem, including tests. Many of the commit messages have some extended observations along the way.
+
+* [starting-point](https://github.com/polotek/pocket-spreadsheet-backfill/tree/starting-point) - gets set up with the 2 APIs
+* [plain-callbacks](https://github.com/polotek/pocket-spreadsheet-backfill/tree/plain-callbacks) - a straight forward implementation with callbacks
+* [promises](https://github.com/polotek/pocket-spreadsheet-backfill/tree/promises) - a straight forward implementation with promises
+* streams - coming soon
+* modular - coming soon
+
 ## Background
 
 I started on a weekend diversion to make my pocket archive more accessible to people with the help of the @jllord/sheetsee-pocket app. It was pretty simple to get up and running. http://polotek.github.io/sheetsee-pocket/
